@@ -2,13 +2,16 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 3
+  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: prop_switchUnit_screen_unlocked_mat
-  m_Shader: {fileID: 22, guid: 0000000000000000e000000000000000, type: 0}
-  m_ShaderKeywords: []
+  m_Shader: {fileID: 4800000, guid: f6ae87e1501b419428612d78248fd0b2, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -37,17 +40,17 @@ Material:
       data:
         first:
           name: _Shininess
-        second: .195532322
+        second: 0.19553232
     m_Colors:
       data:
         first:
           name: _Color
-        second: {r: 1, g: 1, b: 1, a: .611947775}
+        second: {r: 1, g: 1, b: 1, a: 0.6119478}
       data:
         first:
           name: _SpecColor
-        second: {r: .910447776, g: .910447776, b: .910447776, a: 1}
+        second: {r: 0.9104478, g: 0.9104478, b: 0.9104478, a: 1}
       data:
         first:
           name: _ReflectColor
-        second: {r: 1, g: 1, b: 1, a: .5}
+        second: {r: 1, g: 1, b: 1, a: 0.5}
